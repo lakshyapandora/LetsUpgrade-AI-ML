@@ -1,0 +1,24 @@
+#spacy
+
+ACCESS TOKEN : 
+1289275885946679296-o6XoX6yV8EyhvP744w9vz1Uis07Gf9
+
+ACCESS TOKEN SECRET : 
+MYF2xFMTbAQ33obvDegt4SP3CK831QnUcq2pWLEFrQhbz
+
+
+Consumer API keys:
+
+API key : 
+KUUHz6YrqDeyep129SHBi1o3M 
+
+API secert key : 
+KpiRJCbEOTSL4oS1pxc10nTuS88mV4GsrNlPs5Hfg1FKyeiwnH
+
+BEARRER TOKEN : 
+AAAAAAAAAAAAAAAAAAAAAOb5JAEAAAAAYpAM6yfxeHiDPkjwCXZ85HeC%2FeM%3DCSiL5HPJ0RJMPFEAp70IKC8ICPoPLy27w3N7w5pi59QapN1kQi
+
+
+import re
+def clean_tweet(tweet):
+    return ' '.join(re.sub('(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)', ' ', tweet).split())        
